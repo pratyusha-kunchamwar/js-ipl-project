@@ -26,7 +26,7 @@ function top10EconomicalBowlers() {
        bowlersData[bowler].runs = 0;
        bowlersData[bowler].nofBalls = 0;
       }
-      if (noBallRuns == 0 && legBuyRuns) {
+      if (noBallRuns === 0 && legBuyRuns===0) {
         bowlersData[bowler].runs += totalRuns;
       }
       if (wideRuns === "0" && noBallRuns === "0") {

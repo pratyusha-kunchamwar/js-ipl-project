@@ -19,7 +19,7 @@ function bowlerWithBestEconomySuPerOver() {
           nofBalls: 0,
         };
       }
-      if (noBallRuns == 0 && legBuyRuns) {
+      if (noBallRuns ===0 && legBuyRuns=== 0) {
         bowlersData[bowler].totalRuns += totalRuns;
       }
       if (wideRuns === "0" && noBallRuns === "0") {
